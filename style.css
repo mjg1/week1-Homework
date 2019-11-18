@@ -1,0 +1,84 @@
+/* @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900); */
+body {
+    background-color: #979696;
+    background-image:<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+    
+      margin:0; padding:0;
+      overflow-x:hidden;
+      height:100%; 
+      
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 1.45;
+      color: #eee;
+      color: rgba(255,255,255,.85);
+  }
+  /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #cccccc;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #ec0c0c;
+    align-content: "right";
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(240, 6, 6);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+  #container { 
+      padding-top: 40px;
+  }
+  #content {
+      max-width: 243em;
+      padding:50px;
+      margin: 0 auto;
+  }
+  h1 {
+      font-size: 10.8em;
+      font-weight: 100;
+      text-transform: uppercase;
+      margin: 0;
+  }
+  h2 {
+      color: black;
+      font-size: 0.4em;
+      font-weight: 80;
+      line-height: 1.5;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+ 
+  a {
+      font-weight: 700;
+      text-decoration: none;
+      color: #fff;
+  }
+  a:hover {
+      text-decoration: underline;
+  
+  }
+  ul {
+      clear:both;
+  }
+  
+  
+  html { font-size: 62.5%; }
+  body { font-size: 1em;}
+  
+ }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- TODO All Stylesheets cascaded most general to most specific. type="text/css" is deprecated -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans" />
+<link rel="stylesheet" href="assets/css/montserrat.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- sample bootstrap navbar -->
+  <div class="page-header">
+    <!-- better implement this: https://medium.com/coder-grrl/the-guide-to-customising-the-bootstrap-4-navbar-i-wish-id-had-6-months-ago-7bc6ce0e3c71 -->
+    <!-- to allow for more specific textbox styling -->
+    <header>
+      Jesse Gooroovadoo
+    </header>
+    <nav class="nav-topright">
+      <ul>
+        <li><a href="something.html">About Me</a></li>
+        <li><a href="something.html">Portfolio</a></li>
+        <li><a href="something.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+
+  <div class="flex-body mx-auto my-4">
+    <!--  flexbox container: sections should now be on top of each other -->
+
+    <section>
+      <!-- Section and Article are good tags -->
+      <h1 class="display-4">
+        About Me
+      </h1>
+    </section>
+
+    <section>
+      <div>
+        <hr class="my-4 mx-auto"> <!-- margin size 4 on the y axis. To centre horizontally, use mx-auto -->
+        <img class="sample-image img-fluid float-left" src="assets/images/pic1.jpg"
+          alt="This is a nice image it might be a cat">
+        <p>Jesse is an enthusiastic, young, full stack web developer currently studying at the University of
+          Sydney.Jesse has completed his first week of the Full Stack Web Developer Boot Camp and is trying to pursue
+          his goal of becoming a knowledgable web developer. Prior to taking this course Jesse has +5 years in Logistics.
+          Through out his career Jesse has worked in a range of high security /defence facitliles. In the Army,Jesse is
+          part of the
+          Communication Team who are responsbile for all Information Technology related exercses. Im his spare time Jesse
+          also takes part in modelling.
+          Watch this space for regular updates and walk with me through my exciting journey
+          Feel free to contact me at mjgooroovadoo[at]hotmail.com if you'd like for him to work for you!</p>
+        
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="page-footer font-small fixed-bottom">
+    <div class="flex-footer">
+      <!-- This is to hold the three main texts as a flexbox but allow the copyright to be on a new row -->
+      <div>
+        <div class="title">Copyright</div> <!-- capitalise with css -->
+
+      </div>
+
+
+  </footer>
+
+
+
+</body>
+
+</html>

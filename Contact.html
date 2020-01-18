@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- TODO All Stylesheets cascaded most general to most specific. type="text/css" is deprecated -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans" />
+<link rel="stylesheet" href="assets/css/montserrat.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- sample bootstrap navbar -->
+  <div class="page-header">
+    <!-- better implement this: https://medium.com/coder-grrl/the-guide-to-customising-the-bootstrap-4-navbar-i-wish-id-had-6-months-ago-7bc6ce0e3c71 -->
+    <!-- to allow for more specific textbox styling -->
+    <header>
+      Jesse Gooroovadoo
+    </header>
+    <nav class="nav-topright">
+      <ul>
+        <li><a href="something.html">About Me</a></li>
+        <li><a href="something.html">Portfolio</a></li>
+        <li><a href="something.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+
+  <div class="flex-body mx-auto my-4">
+    <!--  flexbox container: sections should now be on top of each other -->
+
+    <section>
+      <!-- Section and Article are good tags -->
+      <h1 class="display-4">
+        Contact
+      </h1>
+    
+
+    <section>
+
+    <div class="container">
+      <form action="action_page.php">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
+  </section>
+
+
+  </div>
+
+  <footer class="page-footer font-small fixed-bottom">
+    <div class="flex-footer">
+      <!-- This is to hold the three main texts as a flexbox but allow the copyright to be on a new row -->
+      <div>
+        <div class="title">Copyright</div> <!-- capitalise with css -->
+
+      </div>
+
+
+  </footer>
+
+
+
+</body>
+
+</html>
